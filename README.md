@@ -9,9 +9,9 @@ Currently used by leading crypto platforms including **Binance** and **CoinGecko
 ## Trusted By
 
 **Binance** cites NS3 as a news source ("According to NS3.AI") across hundreds of Binance Square articles daily:
-- [binance.com/en/square/post/299810049527313](https://www.binance.com/en/square/post/299810049527313)
 - [binance.com/en/square/post/299806017025330](https://www.binance.com/en/square/post/299806017025330)
 - [binance.com/en/square/post/299803848049634](https://www.binance.com/en/square/post/299803848049634)
+- [binance.com/en/square/post/299810049527313](https://www.binance.com/en/square/post/299810049527313)
 
 **CoinGecko** displays NS3 news directly on its news page:
 - [coingecko.com/zh-tw/news](https://www.coingecko.com/zh-tw/news)
