@@ -156,7 +156,7 @@ curl -s "https://api.ns3.ai/feed/news-data?lang=en"
 
 ### Filters
 
-**Token filter** (single token): Returns only news related to a specific token. Always combine with `excludeLevels=4,5` to exclude routine items.
+**Token filter** (single token): Returns only news related to a specific token. Always combine with `excludeLevels=4` to exclude routine items.
 ```bash
 curl -s "https://api.ns3.ai/feed/news-data?lang=en&crypto=BTC"
 curl -s "https://api.ns3.ai/feed/news-data?lang=en&crypto=ETH"
