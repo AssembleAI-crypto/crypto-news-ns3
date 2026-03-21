@@ -195,9 +195,9 @@ curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeLevels=3,4&limit=20"
 **Exclude sources** (multi): Removes articles from specific media outlets by source ID.
 ```bash
 # Exclude CoinMarketCap (ID 3)
-curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeSources=3"
+curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeSources=3&limit=20"
 # Exclude multiple sources
-curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeSources=1,2"
+curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeSources=1,2&limit=20"
 ```
 
 Source IDs: 1 Cointelegraph, 2 CoinDesk, 3 CoinMarketCap, 4 Watcher.Guru, 5 The Daily Hodl, 6 BeInCrypto, 7 Decrypt, 8 The Block, 9 Bloomberg Crypto, 10 Forbes Crypto, 11 Reuters Crypto, 12 Fortune Crypto, 13 CoinNess, 14 Odaily, 15 CryptoSlate, 16 Bitcoin Magazine, 17 DL News, 18 The Defiant, 19 Protos, 20 Wu Blockchain.
@@ -205,9 +205,9 @@ Source IDs: 1 Cointelegraph, 2 CoinDesk, 3 CoinMarketCap, 4 Watcher.Guru, 5 The 
 **Exclude categories** (multi): Removes articles in specific topic categories.
 ```bash
 # Exclude exchange operations news
-curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeCategories=6"
+curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeCategories=6&limit=20"
 # Exclude general and exchange operations
-curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeCategories=5,6"
+curl -s "https://api.ns3.ai/feed/news-data?lang=en&excludeCategories=5,6&limit=20"
 ```
 
 Category IDs: 1 Market Trends, 2 Regulation & Policy, 3 Institutional Updates, 4 Market Outlook & Expert Views, 5 General, 6 Exchange & Venue Operations.
