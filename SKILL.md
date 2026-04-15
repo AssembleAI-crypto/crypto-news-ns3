@@ -75,8 +75,8 @@ NS3 has two independent pipelines delivering four feeds. Pipeline A reads every 
 | "BTC news" / "What's happening with ETH" / "SOL updates" | **News RSS** (crypto=BTC&excludeLevels=4&limit=20) | Coin-specific, excludes routine |
 | "My portfolio: BTC, ETH, SOL" / "News for BTC and XRP" | **News RSS** (crypto=BTC,ETH,SOL&excludeLevels=4&limit=20) | Multi-coin filter, one call |
 | "Why did SOL price move" / "What happened to XRP" | **News RSS** (crypto=SOL&newsType=important&limit=20) | Important news for that coin explains price action |
-| "Breaking news" / "What's happening right now" / "Latest alerts" | **Breaking News** (limit=20) | Real-time headlines |
-| "New listings" / "What got listed today" | **Breaking News** (excludeSources=1&limit=20) | Listing headlines only |
+| "Breaking news" / "What's happening right now" / "Latest alerts" | **Breaking News** (limit=30) | Real-time headlines |
+| "New listings" / "What got listed today" | **Breaking News** (excludeSources=1&limit=30) | Listing headlines only |
 | "Top stories" / "Most important news" / "What matters today" | **Top News** | 24h Top 10, ranked by importance |
 | "Important news only" / "What should I know today" | **Top News** | Level 1-2 only, deduplicated by story |
 | "Catch me up" / "Morning briefing" / "What happened overnight" | **Daily Briefing** | 24h narrative, ~2,000 tokens |
